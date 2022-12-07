@@ -1,6 +1,6 @@
 // connect database
 const mongoose=require('mongoose')
-mongoose.connect(process.env.DB_CONNECTION,{
+mongoose.connect('mongodb+srv://sagar133:sg133155@cluster0.ugdtmj5.mongodb.net/?retryWrites=true&w=majority',{
     useNewUrlParser:true,
     useUnifiedTopology:true
 })
